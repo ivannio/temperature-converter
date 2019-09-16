@@ -7,3 +7,8 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
+#tempButtons {
+    display: inline-flex;
+    justify-content: space-between;
+}
