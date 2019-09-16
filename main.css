@@ -12,3 +12,14 @@ body {
     display: inline-flex;
     justify-content: space-between;
 }
+
+#temp-zone {
+    border: black 1px solid;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#temp-p {
+    text-align: center;
+}
