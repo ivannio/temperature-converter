@@ -27,3 +27,7 @@ const convert = (temp) => {
 document.getElementById("convert-button").addEventListener("click", () => {
     convert(document.getElementById("temp-to-convert").value);
   });
+
+document.getElementById("clear").addEventListener("click", () => {
+    document.getElementById("temp-to-convert").value = '';
+});
