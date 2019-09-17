@@ -17,8 +17,15 @@ const toCelsius = fahrenheit => {
 const toFahrenheit = celsius => {
   let offset = celsius * (9 / 5);
   let converted = offset + 32;
-  document.getElementById("temp-p").innerHTML =
-    Math.round(converted * 100) / 100;
+  converted = Math.round(converted * 100) / 100;
+  document.getElementById("temp-p").innerHTML = converted;
+  if (converted > 90) {
+    document.getElementById("temp-p").className = "redTemp";
+  } else if (converted < 32) {
+    document.getElementById("temp-p").className = "blueTemp";
+  } else {
+    document.getElementById("temp-p").className = "greenTemp";
+  }    
 };
 
 const convert = temp => {
