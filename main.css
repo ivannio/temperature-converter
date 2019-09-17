@@ -23,3 +23,15 @@ body {
 #temp-p {
     text-align: center;
 }
+
+.redTemp {
+    color: red;
+}
+
+.greenTemp {
+    color: green;
+}
+
+.blueTemp {
+    color: blue;
+}
