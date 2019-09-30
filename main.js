@@ -11,7 +11,7 @@ const toCelsius = fahrenheit => {
     document.getElementById("temp-p").className = "blueTemp";
   } else {
     document.getElementById("temp-p").className = "greenTemp";
-  }    
+  }
 };
 
 const toFahrenheit = celsius => {
@@ -25,7 +25,7 @@ const toFahrenheit = celsius => {
     document.getElementById("temp-p").className = "blueTemp";
   } else {
     document.getElementById("temp-p").className = "greenTemp";
-  }    
+  }
 };
 
 const convert = temp => {
@@ -55,4 +55,3 @@ const init = () => {
 };
 
 init();
-
